@@ -3,9 +3,9 @@ services:
   - type: web
     name: alist
     env: docker
-    repo: https://vip-yzlab@bitbucket.org/vip-yzlab/files-yzlab.git # optional
-    region: oregon # optional (defaults to oregon)
-    plan: free # optional (defaults to starter)
+    repo: 
+    region: oregon
+    plan: free
     healthCheckPath: /
     envVars:
       - key: PORT
@@ -35,9 +35,9 @@ services:
         # value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
       - key: CACHE_EXPIRATION
-        # value: 60
+        value: 60
         sync: false
       - key: CLEANUP_INTERVAL
-        # value: 120
+        value: 120
         sync: false
       
