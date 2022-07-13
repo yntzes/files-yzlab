@@ -22,9 +22,6 @@ services:
       - key: DB_USER
         value: yzon
         sync: true
-      - key: DB_PASS
-        value: v2_3sXne_5Swq6eu4MyLQbcfJuwpddey
-        sync: true
       - key: DB_NAME
         value: yzon/yzon
         sync: true
