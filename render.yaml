@@ -23,7 +23,7 @@ services:
         value: yzon
         sync: true
       - key: DB_PASS
-        # value: db_password
+        v2_3sXne_5Swq6eu4MyLQbcfJuwpddey
         sync: true
       - key: DB_NAME
         value: yzon/yzon
